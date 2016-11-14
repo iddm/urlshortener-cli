@@ -3,7 +3,7 @@ name = "urlshortener-cli"
 version = "0.1.0"
 authors = ["Victor Polevoy <maintainer@vpolevoy.com>"]
 description = "A program which makes your url shorten."
-keywords = ["url", "short", "shortener", "link", "web", "http"]
+keywords = ["url", "short", "shortener", "link", "web"]
 license = "MIT"
 repository = "https://github.com/vityafx/urlshortener-cli"
 
