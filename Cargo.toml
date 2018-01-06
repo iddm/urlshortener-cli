@@ -1,6 +1,6 @@
 [package]
 name = "urlshortener-cli"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Victor Polevoy <maintainer@vpolevoy.com>"]
 description = "A program which makes your url shorten."
 keywords = ["url", "short", "shortener", "link", "web"]
@@ -9,4 +9,4 @@ repository = "https://github.com/vityafx/urlshortener-cli"
 documentation = "https://github.com/vityafx/urlshortener-cli"
 
 [dependencies]
-urlshortener = "0.5.0"
+urlshortener = "0.8"
