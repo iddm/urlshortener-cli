@@ -1,7 +1,7 @@
 extern crate urlshortener;
 
-use urlshortener::UrlShortener;
 use std::env;
+use urlshortener::UrlShortener;
 
 fn main() {
     let us = UrlShortener::new().unwrap();
