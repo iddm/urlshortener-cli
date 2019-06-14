@@ -9,4 +9,4 @@ repository = "https://github.com/vityafx/urlshortener-cli"
 documentation = "https://github.com/vityafx/urlshortener-cli"
 
 [dependencies]
-urlshortener = "0.8"
+urlshortener = "0.10"
