@@ -1,12 +1,13 @@
 [package]
 name = "urlshortener-cli"
-version = "0.1.2"
+version = "1.0.0"
 authors = ["Victor Polevoy <maintainer@vpolevoy.com>"]
 description = "A program which makes your url shorten."
 keywords = ["url", "short", "shortener", "link", "web"]
 license = "MIT"
 repository = "https://github.com/vityafx/urlshortener-cli"
 documentation = "https://github.com/vityafx/urlshortener-cli"
+edition = "2018"
 
 [dependencies]
-urlshortener = "0.8"
+urlshortener = "1"
