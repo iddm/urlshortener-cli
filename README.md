@@ -1,6 +1,6 @@
 # urlshortener-cli
 [![](https://meritbadge.herokuapp.com/urlshortener-cli)](https://crates.io/crates/urlshortener-cli)
-[![](https://travis-ci.org/vityafx/urlshortener-dbus-daemon.svg?branch=master)](https://travis-ci.org/vityafx/urlshortener-cli)
+[![](https://travis-ci.org/vityafx/urlshortener-cli.svg?branch=master)](https://travis-ci.org/vityafx/urlshortener-cli)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 
