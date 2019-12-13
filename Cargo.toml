@@ -10,4 +10,4 @@ documentation = "https://github.com/vityafx/urlshortener-cli"
 edition = "2018"
 
 [dependencies]
-urlshortener = "1"
+urlshortener = "2"
