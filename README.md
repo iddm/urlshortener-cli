@@ -4,7 +4,7 @@
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 
-A very simple urlshortener program written in Rust language. It uses [urlshortener](https://github.com/vityafx/urlshortener-rs) rust library as data provider.
+A very simple urlshortener program written in Rust language. It uses [urlshortener](https://github.com/iddm/urlshortener-rs) rust library as data provider.
 
 
 ## Installing with `Cargo`

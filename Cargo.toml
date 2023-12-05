@@ -5,9 +5,9 @@ authors = ["Victor Polevoy <maintainer@vpolevoy.com>"]
 description = "A program which makes your url shorten."
 keywords = ["url", "short", "shortener", "link", "web"]
 license = "MIT"
-repository = "https://github.com/vityafx/urlshortener-cli"
-documentation = "https://github.com/vityafx/urlshortener-cli"
 edition = "2018"
+repository = "https://github.com/iddm/urlshortener-cli"
+documentation = "https://github.com/iddm/urlshortener-cli"
 
 [dependencies]
 urlshortener = "3"
