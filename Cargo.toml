@@ -1,13 +1,21 @@
 [package]
 name = "urlshortener-cli"
-version = "1.0.1"
+version = "1.1.0"
 authors = ["Victor Polevoy <maintainer@vpolevoy.com>"]
 description = "A program which makes your url shorten."
 keywords = ["url", "short", "shortener", "link", "web"]
 license = "MIT"
-edition = "2018"
+edition = "2021"
 repository = "https://github.com/iddm/urlshortener-cli"
 documentation = "https://github.com/iddm/urlshortener-cli"
 
 [dependencies]
 urlshortener = "3"
+
+[dependencies.cli-clipboard]
+optional = true
+version = "0.4"
+
+[features]
+default = ["clipboard"]
+clipboard = ["cli-clipboard"]
