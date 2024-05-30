@@ -48,6 +48,20 @@ $ urlshortener-cli --get-from-clipboard
 Note that getting the links from the clipboard may be messy on Linux if
 the clipboard managers are used.
 
+## Integration with Desktop Environments
+
+### Hyprland
+
+Create a key shortcut to use the shortener: in your quickly
+`~/.config/hypr/hyprland.conf`, put something like this:
+
+```
+bind = $mainMod, L, exec, urlshortener-cli --get-from-clipboard --set-to-clipboard
+```
+Then, just copy a link to your clipboard, and invoke the shortcut, if done like this, -
+the `MOD key + L`, to shorten the link. The resulting short link will be in the
+clipboard.
+
 ## License
 
 This project is [licensed under the MIT license](./LICENSE).
