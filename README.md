@@ -28,7 +28,14 @@ If your url has escaped characters just wrap it with quotes:
 $ urlshortener-cli "https://www.google.ru/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiclOPp3OTRAhVyb5oKHUzyCl8QFggpMAE&url=http%3A%2F%2Ftest.tankionline.com%2F&usg=AFQjCNFIEFFpu2m_QofHelAXRK0JP4dLOQ&sig2=Fc6eFhPDqNgt5kZMzRWPIA"
 
 https://www.google.ru/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiclOPp3OTRAhVyb5oKHUzyCl8QFggpMAE&url=http%3A%2F%2Ftest.tankionline.com%2F&usg=AFQjCNFIEFFpu2m_QofHelAXRK0JP4dLOQ&sig2=Fc6eFhPDqNgt5kZMzRWPIA -> https://is.gd/jIsDF1
+```
 
+The crate supports setting the clipboard content with the optional
+`--use-clipboard` argument. The shortened links are then copied into
+the clipboard for easier use.
+
+```
+$ urlshortener-cli --use-clipboard "https://google.com"
 ```
 
 ## License

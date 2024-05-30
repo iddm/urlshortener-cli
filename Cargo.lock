@@ -1198,7 +1198,7 @@ dependencies = [
 
 [[package]]
 name = "urlshortener-cli"
-version = "1.1.0"
+version = "1.1.1"
 dependencies = [
  "cli-clipboard",
  "urlshortener",

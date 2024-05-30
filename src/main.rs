@@ -38,6 +38,9 @@ fn main() {
     }
 
     if use_clipboard {
-        cli_clipboard::set_contents(shortened_links.join("\n")).unwrap();
+        match cli_clipboard::set_contents(shortened_links.join("\n")) {
+            Ok(_) => println!("Shortened links copied to clipboard."),
+            Err(e) => eprintln!("Failed to copy shortened links to clipboard: {:?}", e),
+        }
     }
 }
