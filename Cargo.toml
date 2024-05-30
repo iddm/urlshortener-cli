@@ -1,6 +1,6 @@
 [package]
 name = "urlshortener-cli"
-version = "1.1.1"
+version = "1.2.0"
 authors = ["Victor Polevoy <maintainer@vpolevoy.com>"]
 description = "A program which makes your url shorten."
 keywords = ["url", "short", "shortener", "link", "web"]
@@ -11,11 +11,12 @@ documentation = "https://github.com/iddm/urlshortener-cli"
 
 [dependencies]
 urlshortener = "3"
+cli-clipboard = "0.4"
 
-[dependencies.cli-clipboard]
+[dependencies.notify-rust]
 optional = true
-version = "0.4"
+version = "4"
 
 [features]
-default = ["clipboard"]
-clipboard = ["cli-clipboard"]
+default = ["notifications"]
+notifications = ["notify-rust"]

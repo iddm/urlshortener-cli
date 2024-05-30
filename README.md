@@ -31,12 +31,22 @@ https://www.google.ru/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ve
 ```
 
 The crate supports setting the clipboard content with the optional
-`--use-clipboard` argument. The shortened links are then copied into
+`--set-to-clipboard` argument. The shortened links are then copied into
 the clipboard for easier use.
 
 ```
-$ urlshortener-cli --use-clipboard "https://google.com"
+$ urlshortener-cli --set-to-clipboard "https://google.com"
 ```
+
+The crate also supports gets the links to shorten from the clipboard.
+For this, use the `--get-from-clipboard` argument.
+
+```
+$ urlshortener-cli --get-from-clipboard
+```
+
+Note that getting the links from the clipboard may be messy on Linux if
+the clipboard managers are used.
 
 ## License
 
